@@ -1,0 +1,88 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+html {
+    font-family: 'Karla', sans-serif;
+}
+
+/*common class  */
+h2 {
+    font-size: 16px;
+}
+
+.cm {
+    width: 100%;
+    height: 33.33vh;
+}
+
+/* section-joc */
+h1 {
+    color:  hsl(179, 62%, 43%);
+    margin: 20px 10px;
+}
+ 
+.joc h2 {
+        margin: 20px 10px;
+        color: hsl(71, 73%, 54%);
+}
+
+.joc p {
+        margin: 20px 10px;
+        color:  hsl(203, 51%, 38%);
+        line-break: ;
+
+}
+
+/* section-ms */
+
+
+.ms {
+    background-color: hsl(179, 55%, 42%); 
+}
+
+.ms h2  {
+        padding: 20px 10px;
+        color: white;
+}
+
+.ms p {
+    color: rgba(255,255,255, 0.5);
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+strong {
+    font-size: 2rem;
+    color: white;  
+}
+
+button {
+    width: 80%;
+    height: 40px;
+    margin: 20px;
+    background-color: hsl(71, 73%, 54%); 
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+/* section why */
+
+.why {
+    background-color: hsla(179, 55%, 42%, 0.8) ;
+}
+
+.why h2 {
+    padding: 15px;
+    color: white;
+
+}
+
+.why p {
+     padding-top: 10px;
+     padding-left: 15px;
+     color:  rgba(255,255,255, 0.5);
+
+}
